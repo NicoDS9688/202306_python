@@ -31,12 +31,12 @@ class CuentaBancaria:
 
     @classmethod
     def mostrar_todas_las_cuentas(cls):
-        for i, cuenta in enumerate(cls.cuentas, 1):
-            print(f"Informacion de cuenta {i}:")
+        for cuenta in cls.cuentas:
+            print(f"Informacion de cuenta:")
             cuenta.mostrar_info_cuenta()
             print("-"*10)
 
-        
+
 
 cuentaBancaria1 = CuentaBancaria()
 cuentaBancaria2 = CuentaBancaria()
