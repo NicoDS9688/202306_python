@@ -32,7 +32,7 @@ class CuentaBancaria:
     @classmethod
     def mostrar_todas_las_cuentas(cls):
         for cuenta in cls.cuentas:
-            print(f"Informacion de cuenta:")
+            print("Informacion de cuenta:")
             cuenta.mostrar_info_cuenta()
             print("-"*10)
 
